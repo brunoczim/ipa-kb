@@ -4,6 +4,14 @@ var keybindings = {
   'ae': 'æ',
   'aa': 'ɐ',
   'ao': 'ɒ',
+  'b': 'ɓ',
+  'bv': 'β',
+  'br': 'ʙ',
+  'c': 'ç',
+  'cs': 'ɕ',
+  'd': 'ɗ',
+  'dh': 'ð',
+  'dr': 'ɖ',
   '~': '\u0303'
 };
 
@@ -33,6 +41,11 @@ function listenKeys() {
   var mode = 'normal';
   var specialPos = 0;
 
+  function setMode(value) {
+    document.getElementById('mode-text').textContent = value;
+    mode = value;
+  }
+
   elem.onkeyup = function(event) {
     switch (mode) {
       case 'special':
@@ -41,12 +54,14 @@ function listenKeys() {
           if (buf in keybindings) {
             elem.value = elem.value.substring(0, specialPos) + keybindings[buf];
           }
-          mode = 'normal';
+          setMode('normal');
+        }  else if (event.key == 'Escape') {
+          setMode('normal');
         }
         break;
       case 'normal':
         if (event.key == '\\') {
-          mode = 'special';
+          setMode('special');
           tempBuf = '';
           specialPos = elem.value.length - 1;
         }
