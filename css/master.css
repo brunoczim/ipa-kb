@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+#main-wrapper {
+    padding: 20pt;
+    margin: auto;
+    max-width: 800px;
+}
+
+#orient {
+    font-size: 12pt;
+}
+
+#typing-area {
+    width: 80%;
+    max-width: 600px;
+    height: 80%;
+    min-height: 100px;
+    margin: 10pt;
+    font-size: 18pt;
+}
+
+#keys {
+    font-size: 18pt;
+}
+
+#keys-list {
+    list-style: none;
+}
+
+#keys-list > li {
+    display: inline-block;
+    padding-left: 30pt;
+    padding-right: 30pt;
+    padding-top: 10pt;
+}
