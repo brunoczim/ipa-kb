@@ -16,7 +16,7 @@ var keys = [
   { input: 'er', output: 'ɚ' },
   { input: 'ee', output: 'ɘ' },
   { input: 'e3', output: 'ɛ' },
-  { input: '3e', output: 'ɜ' },
+  { input: '3', output: 'ɜ' },
   { input: '3r', output: 'ɝ' },
   { input: '3o', output: 'ɞ' },
   { input: 'f', output: 'ɸ' },
@@ -27,7 +27,19 @@ var keys = [
   { input: 'ha', output: 'ħ' },
   { input: 'hs', output: 'ɧ' },
   { input: 'H', output: 'ʜ' },
-  { input: '~', output: '\u0303' }
+  { input: 'i', output: 'ɨ' },
+  { input: 'I', output: 'ɪ' },
+  { input: 'j', output: 'ʄ' },
+  { input: 'js', output: 'ʝ' },
+  { input: 'J', output: 'ɟ' },
+  { input: 'l', output: 'ɫ' },
+  { input: 'lr', output: 'ɭ' },
+  { input: 'ls', output: 'ɬ' },
+  { input: 'lz', output: 'ɮ' },
+  { input: 'L', output: 'ʟ' },
+  { input: 'm', output: 'ɱ' },
+  { input: '~', output: '\u0303' },
+  { input: '~u', output: '\u0334' }
 ];
 
 var keyMap = {};

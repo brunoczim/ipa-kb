@@ -45,7 +45,7 @@ var phones = {
   },
   'l': {
     name: 'alveolar lateral approximant',
-    link: 'https://en.wikipedia.org/wiki/Alveolar_lateral_approximant'
+    link: 'https://en.wikipedia.org/wiki/Dental,_alveolar_and_postalveolar_lateral_approximants'
   },
   'm': {
     name: 'bilabial nasal',
@@ -211,9 +211,58 @@ var phones = {
     name: 'voiceless epiglottal fricative',
     link: 'https://en.wikipedia.org/wiki/Voiceless_epiglottal_fricative'
   },
+  ' ': {
+    name: 'close central unrounded vowel',
+    link: 'https://en.wikipedia.org/Close_central_unrounded_vowel'
+  },
+  'ɪ': {
+    name: 'near-close front unrounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Near-close_front_unrounded_vowel'
+  },
+  'ʄ': {
+    name: 'voiced palatal implosive',
+    link: 'https://en.wikipedia.org/wiki/Voiced_palatal_implosive'
+  },
+  'ʝ': {
+    name: 'voiced palatal fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_palatal_fricative'
+  },
+  'ɟ': {
+    name: 'voiced palatal stop',
+    link: 'https://en.wikipedia.org/wiki/Voiced_palatal_stop'
+  },
+  'ɫ': {
+    name: 'velarized alveolar lateral approximant',
+    link: 'https://en.wikipedia.org/wiki/Dental,_alveolar_and_postalveolar_lateral_approximants#Velarized_alveolar_lateral_approximant'
+  },
+  'ɭ': {
+    name: 'retroflex lateral approximant',
+    link: 'https://en.wikipedia.org/wiki/Retroflex_lateral_approximant'
+  },
+  'ɬ': {
+    name: 'voiceless alveolar lateral fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiceless_dental_and_alveolar_lateral_fricatives'
+  },
+  'ɮ': {
+    name: 'voiced alveolar lateral fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_lateral_fricatives'
+  },
+  'ʟ': {
+    name: 'velar lateral approximant',
+    link: 'https://en.wikipedia.org/wiki/Velar_lateral_approximant'
+  },
+  'ɱ': {
+    name: 'labiodental nasal',
+    link: 'https://en.wikipedia.org/wiki/Labiodental_nasal'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Nasal_vowel'
+  },
+  '\u0334': {
+    name: 'velarized or pharyngealized diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Velarization'
   }
 };
