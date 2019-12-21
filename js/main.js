@@ -35,7 +35,7 @@ function makeLink(key) {
 
 function listenKeys() {
   var elem = document.getElementById('typing-area');
-  var current = document.getElementById('current-phone-text');
+  var current = document.getElementById('last-phone-text');
 
   var mode = 'normal';
   var specialPos = 0;
@@ -51,6 +51,12 @@ function listenKeys() {
       current.appendChild(makeLink(key));
     }
   }
+
+  elem.oninput = function(event) {
+    if (event.inputType == 'insertText' && mode == 'normal') {
+      setCurrent(event.data);
+    }
+  };
   
   elem.onkeyup = function(event) {
     switch (mode) {
@@ -76,8 +82,6 @@ function listenKeys() {
           setMode('special');
           tempBuf = '';
           specialPos = elem.selectionStart - 1;
-        } else {
-          setCurrent(event.key);
         }
         break;
     }

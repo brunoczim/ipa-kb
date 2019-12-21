@@ -376,8 +376,8 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiceless_labialized_velar_approximant'
   },
   'χ': {
-    name: 'voiceless uvular approximant',
-    link: 'https://en.wikipedia.org/Voiceless_uvular_approximant'
+    name: 'voiceless uvular fricative',
+    link: 'https://en.wikipedia.org/Voiceless_uvular_fricative'
   },
   'ʎ': {
     name: 'palatal lateral approximant',
