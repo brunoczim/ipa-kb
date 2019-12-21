@@ -424,35 +424,35 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Stress_(linguistics)'
   },
   'ː': {
-    name: 'long phone',
+    name: 'long',
     link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
   },
   'ˑ': {
-    name: 'half-long phone',
+    name: 'half-long',
     link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
   },
   '\u0306': {
-    name: 'extra short phone',
+    name: 'extra short diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
   },
   '\u0329': {
-    name: 'syllabic phone lower diacritic',
+    name: 'syllabic lower diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
   },
   '\u030d': {
-    name: 'syllabic phone upper diacritic',
+    name: 'syllabic upper diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
   },
   '\u0311': {
-    name: 'non-syllabic phone lower diacritic',
+    name: 'non-syllabic lower diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
   '\u032f': {
-    name: 'non-syllabic phone upper diacritic',
+    name: 'non-syllabic upper diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
@@ -460,6 +460,21 @@ var phones = {
     name: 'nasalized diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Nasal_vowel'
+  },
+  '\u0308': {
+    name: 'centralized diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Central_vowel'
+  },
+  '\u0325': {
+    name: 'voiceless lower diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Voicelessness'
+  },
+  '\u030a': {
+    name: 'voiceless upper diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Voicelessness'
   },
   '\u0334': {
     name: 'velarized or pharyngealized diacritic',
