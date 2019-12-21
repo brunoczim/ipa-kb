@@ -221,7 +221,7 @@ var phones = {
   },
   'ɨ': {
     name: 'close central unrounded vowel',
-    link: 'https://en.wikipedia.org/Close_central_unrounded_vowel'
+    link: 'https://en.wikipedia.org/wiki/Close_central_unrounded_vowel'
   },
   'ɪ': {
     name: 'near-close front unrounded vowel',
@@ -337,19 +337,19 @@ var phones = {
   },
   'θ': {
     name: 'voiceless dental fricative',
-    link: 'https://en.wikipedia.org/Voicess_dentral_fricative'
+    link: 'https://en.wikipedia.org/wiki/Voicess_dentral_fricative'
   },
   'ʈ': {
     name: 'voiceless retroflex stop',
-    link: 'https://en.wikipedia.org/Voiceless_dentral_stop'
+    link: 'https://en.wikipedia.org/wiki/Voiceless_dentral_stop'
   },
   'ʊ': {
     name: 'near-close back rounded vowel',
-    link: 'https://en.wikipedia.org/Near-close_back_rounded_vowel'
+    link: 'https://en.wikipedia.org/wiki/Near-close_back_rounded_vowel'
   },
   'ʉ': {
     name: 'close central rounded vowel',
-    link: 'https://en.wikipedia.org/Close_central_rounded_vowel'
+    link: 'https://en.wikipedia.org/wiki/Close_central_rounded_vowel'
   },
   'ⱱ': {
     name: 'labiodental flap',
@@ -365,11 +365,11 @@ var phones = {
   },
   'ɰ': {
     name: 'velar approximant',
-    link: 'https://en.wikipedia.org/Velar_approximant'
+    link: 'https://en.wikipedia.org/wiki/Velar_approximant'
   },
   'ɯ': {
     name: 'close back unrounded vowel',
-    link: 'https://en.wikipedia.org/Close_back_unrounded_vowel'
+    link: 'https://en.wikipedia.org/wiki/Close_back_unrounded_vowel'
   },
   'ʍ': {
     name: 'voiceless labio-velar approximant',
@@ -377,15 +377,15 @@ var phones = {
   },
   'χ': {
     name: 'voiceless uvular fricative',
-    link: 'https://en.wikipedia.org/Voiceless_uvular_fricative'
+    link: 'https://en.wikipedia.org/wiki/Voiceless_uvular_fricative'
   },
   'ʎ': {
     name: 'palatal lateral approximant',
-    link: 'https://en.wikipedia.org/Palatal_lateral_approximant'
+    link: 'https://en.wikipedia.org/wiki/Palatal_lateral_approximant'
   },
   'ʏ': {
     name: 'near-close front rounded vowel',
-    link: 'https://en.wikipedia.org/Near-close_front_rounded_vowel'
+    link: 'https://en.wikipedia.org/wiki/Near-close_front_rounded_vowel'
   },
   'ʒ': {
     name: 'voiced palato-alveolar fricative',
@@ -445,6 +445,16 @@ var phones = {
     name: 'syllabic phone upper diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
+  },
+  '\u0311': {
+    name: 'non-syllabic phone lower diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Semivowel'
+  },
+  '\u032f': {
+    name: 'non-syllabic phone upper diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
   '\u0303': {
     name: 'nasalized diacritic',

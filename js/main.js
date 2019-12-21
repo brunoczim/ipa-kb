@@ -18,6 +18,7 @@ function renderKeys() {
     if (keys[i].output in phones) {
       nameCol.appendChild(makeLink(keys[i].output));
     }
+    keysCol.className = 'keybinding';
     row.appendChild(keysCol);
     row.appendChild(symbolCol);
     row.appendChild(nameCol);
