@@ -54,6 +54,6 @@ body {
     padding-top: 10pt;
 }
 
-#mode-text {
+#mode-text, #current-symbol-text {
     font-weight: bold;
 }
