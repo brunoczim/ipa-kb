@@ -1,3 +1,6 @@
+var delStart = '\\';
+var delEnd = 'Enter';
+
 var keys = [
   { input: '\\', output: '\\' },
   { input: 'a', output: 'ɑ' },
@@ -56,6 +59,18 @@ var keys = [
   { input: 'rr', output: 'ɻ' },
   { input: 'rdr', output: 'ɽ' },
   { input: 'rl', output: 'ɺ' },
+  { input: 's', output: 'ʃ' },
+  { input: 'sr', output: 'ʂ' },
+  { input: 't', output: 'θ' },
+  { input: 'tr', output: 'ʈ' },
+  { input: 'u', output: 'ʊ' },
+  { input: 'u-', output: 'ʉ' },
+  { input: 'v', output: 'ⱱ' },
+  { input: 'vu', output: 'ʋ' },
+  { input: 'va', output: 'ʌ' },
+  { input: 'w', output: 'ɰ' },
+  { input: 'wu', output: 'ɯ' },
+  { input: 'wm', output: 'ʍ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];

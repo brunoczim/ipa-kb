@@ -327,6 +327,42 @@ var phones = {
     name: 'alveolar lateral flap',
     link: 'https://en.wikipedia.org/wiki/Dental_and_alveolar_lateral_flaps'
   },
+  'ʃ': {
+    name: 'voiceless palato-alveolar fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative'
+  },
+  'ʂ': {
+    name: 'voiceless retroflex fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiceless_retroflex_fricative'
+  },
+  'θ': {
+    name: 'voiceless dental fricative',
+    link: 'https://en.wikipedia.org/Voicess_dentral_fricative'
+  },
+  'ʈ': {
+    name: 'voiceless retroflex stop',
+    link: 'https://en.wikipedia.org/Voiceless_dentral_stop'
+  },
+  'ʊ': {
+    name: 'near-close back rounded vowel',
+    link: 'https://en.wikipedia.org/Near-close_back_rounded_vowel'
+  },
+  'ʉ': {
+    name: 'close central rounded vowel',
+    link: 'https://en.wikipedia.org/Close_central_rounded_vowel'
+  },
+  'ⱱ': {
+    name: 'labiodental flap',
+    link: 'https://en.wikipedia.org/wiki/Labiodental_flap'
+  },
+  'ʋ': {
+    name: 'labiodental approximant',
+    link: 'https://en.wikipedia.org/wiki/Labiodental_approximant'
+  },
+  'ʌ': {
+    name: 'open-mid back unrounded vowel',
+    link: 'httpś://en.wikipedia.org/wiki/Open-mid_back_unrounded_vowel'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,

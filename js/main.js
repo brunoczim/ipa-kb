@@ -55,7 +55,7 @@ function listenKeys() {
   elem.onkeyup = function(event) {
     switch (mode) {
       case 'special':
-        if (event.key == 'Enter') {
+        if (event.key == delEnd) {
           var end = elem.selectionStart;
           var buf = elem.value.substring(specialPos + 1, end - 1);
           if (buf in keyMap) {
@@ -72,7 +72,7 @@ function listenKeys() {
         }
         break;
       case 'normal':
-        if (event.key == '\\') {
+        if (event.key == delStart) {
           setMode('special');
           tempBuf = '';
           specialPos = elem.selectionStart - 1;
