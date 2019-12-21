@@ -72,6 +72,8 @@ function listenKeys() {
             elem.selectionStart = specialPos + 1;
             elem.selectionEnd = specialPos + 1;
             setCurrent(keyMap[buf]);
+          } else {
+            current.textContent = 'unknown';
           }
           setMode('normal');
         }  else if (event.key == 'Escape') {

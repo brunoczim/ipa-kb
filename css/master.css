@@ -10,52 +10,82 @@ html, body {
 
 body {
     text-align: center;
+    background-color: #fefeff;
+    color: #000000;
+    font-family: sans-serif;
 }
 
 textarea {
     font-family: sans-serif;
+    border: 2pt #aaaaaa solid;
+    border-radius: 5pt;
+    padding: 10pt;
+    font-size: 16pt;
 }
 
 #main-wrapper {
-    padding: 20pt;
+    padding: 5pt;
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
+    background-color: #fcf7ff;
+    box-shadow: 0 0 2pt;
 }
 
 #orient {
     font-size: 12pt;
 }
 
-#orient > p {
-    padding-bottom: 10pt;
-}
-
 #typing-area {
-    width: 80%;
     max-width: 600px;
-    height: 80%;
-    min-height: 100px;
     margin: 10pt;
-    font-size: 18pt;
-}
-
-#keys {
-    font-size: 18pt;
+    min-height: 120px;
+    width: calc(100% - 44pt);
 }
 
 #keys-table {
     margin: auto;
     border-collapse: collapse;
     font-size: 12pt;
+    border: 2px #d1c2e4 solid;
 }
 
 #keys-table td, #keys-table th {
-    border: 1px solid black;
     padding: 5pt;
+}
+
+tbody > tr:nth-child(even), thead > tr {
+    background-color: #e8e0f2;
+}
+
+tbody > tr:nth-child(body) {
+    background-color: #fcf7ff;
+}
+
+#orient > p {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
 }
 
 #mode {
     padding-top: 10pt;
+}
+
+#last-phone {
+    padding-top: 5pt;
+    padding-bottom: 10pt;
+}
+
+#orient, #keys {
+    padding-bottom: 10pt;
+    padding-top: 5pt;
+}
+
+hr {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    color: #cccccc;
 }
 
 #mode-text, #last-phone-text {
@@ -67,7 +97,7 @@ textarea {
 }
 
 a {
-    color: #3211ee;
+    color: #1608c0;
     text-decoration: none;
 }
 

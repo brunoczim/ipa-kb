@@ -8,6 +8,14 @@
     </head>
     <body>
         <div id="main-wrapper">
+            <div id="mode">
+                Mode: <span id="mode-text">normal</span>
+            </div>
+            <div id="last-phone">
+                Last inserted phone: <span id="last-phone-text"></span>
+            </div>
+            <textarea id="typing-area"></textarea>
+            <hr>
             <div id="orient">
                 <p>
                     For special characters: input '\', input key combination for
@@ -22,19 +30,12 @@
                     &lt;\&gt;&lt;\&gt;&lt;ENTER&gt; or &lt;\&gt;&lt;ESCAPE&gt;.
                 </p>
             </div>
-            <div id="mode">
-                Mode: <span id="mode-text">normal</span>
-            </div>
-            <div id="last-phone">
-                Last inserted phone: <span id="last-phone-text"></span>
-            </div>
-            <textarea id="typing-area"></textarea>
             <div id="keys">
                 <table id="keys-table">
                     <thead>
                         <tr>
                             <th>Keys</th>
-                            <th>Symbol</th>
+                            <th>Out</th>
                             <th>Phone Name</th>
                         </tr>
                     </thead>

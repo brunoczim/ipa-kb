@@ -102,6 +102,17 @@ var keys = [
   { input: 'voiced', output: '\u032c' },
   { input: '_', output: '\u0361' },
   { input: '__', output: '\u035c' },
+  { input: 'norel', output: '\u031a' },
+  { input: 'dental', output: '\u032a' },
+  { input: 'apical', output: '\u033a' },
+  { input: '_|_', output: '\u031d' },
+  { input: 'raised', output: '˔' },
+  { input: 'T', output: '\u031e' },
+  { input: 'lowered', output: '˕' },
+  { input: '+', output: '\u031f' },
+  { input: 'advanced', output: '˖' },
+  { input: '-', output: '\u0320' },
+  { input: 'retracted', output: '˗' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];

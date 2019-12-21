@@ -491,13 +491,64 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Velarization'
   },
   '\u0361': {
-    name: 'upper tie bar (affricate or coarticulation)',
+    name: 'upper tie bar (affricate or coarticulation) diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
   },
   '\u035c': {
-    name: 'lower tie bar (affricate or coarticulation)',
+    name: 'lower tie bar (affricate or coarticulation) diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
-  }
+  },
+  '\u031a': {
+    name: 'no audible release diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Unreleased_stop'
+  },
+  '\u032a': {
+    name: 'dental diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Dental_consonant'
+  },
+  '\u033a': {
+    name: 'apical diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Apical_consonant'
+  },
+  '\u031d': {
+    name: 'raised diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Raised'
+  },
+  '\u031e': {
+    name: 'lowered diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Lowered'
+  },
+  '˔': {
+    name: 'raised',
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Raised'
+  },
+  '˕': {
+    name: 'lowered',
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Lowered'
+  },
+  '\u031f': {
+    name: 'advanced diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Advanced'
+  },
+  '\u0320': {
+    name: 'retracted diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Retracted'
+  },
+  '˖': {
+    name: 'advanced',
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Advanced'
+  },
+  '˗': {
+    name: 'retracted',
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Retracted'
+  },
 };
