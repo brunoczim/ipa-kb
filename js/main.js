@@ -30,7 +30,12 @@ function listenKeys() {
 
   function setCurrent(key) {
     if (key in phones) {
-      current.textContent = phones[key].name;
+      var link = document.createElement('a');
+      link.href = phones[key].link;
+      link.textContent = phones[key].name;
+      link.target = '_blank';
+      current.innerHTML = '';
+      current.appendChild(link);
     }
   }
 
