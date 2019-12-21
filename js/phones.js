@@ -36,7 +36,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Close_front_unrounded_vowel'
   },
   'j': {
-    name: 'palatal approximant',
+    name: 'voiced palatal approximant',
     link: 'https://en.wikipedia.org/wiki/Palatal_approximant'
   },
   'k': {
@@ -44,7 +44,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiceless_velar_stop'
   },
   'l': {
-    name: 'alveolar lateral approximant',
+    name: 'voiced alveolar lateral approximant',
     link: 'https://en.wikipedia.org/wiki/Dental,_alveolar_and_postalveolar_lateral_approximants'
   },
   'm': {
@@ -219,6 +219,10 @@ var phones = {
     name: 'voiceless epiglottal fricative',
     link: 'https://en.wikipedia.org/wiki/Voiceless_epiglottal_fricative'
   },
+  'ɥ': {
+    name: 'voiced labio-palatal approximant',
+    link: 'https://en.wikipedia.org/wiki/Voiced_labio-velar_approximant'
+  },
   'ɨ': {
     name: 'close central unrounded vowel',
     link: 'https://en.wikipedia.org/wiki/Close_central_unrounded_vowel'
@@ -240,7 +244,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiced_palatal_stop'
   },
   'ɫ': {
-    name: 'velarized alveolar lateral approximant',
+    name: 'velarized voiced alveolar lateral approximant',
     link: 'https://en.wikipedia.org/wiki/Dental,_alveolar_and_postalveolar_lateral_approximants#Velarized_alveolar_lateral_approximant'
   },
   'ɭ': {
@@ -256,7 +260,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_lateral_fricatives'
   },
   'ʟ': {
-    name: 'velar lateral approximant',
+    name: 'voiced velar lateral approximant',
     link: 'https://en.wikipedia.org/wiki/Velar_lateral_approximant'
   },
   'ɱ': {
@@ -300,7 +304,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Close-mid_central_rounded_vowel'
   },
   'ɹ': {
-    name: 'alveolar approximant',
+    name: 'voiced alveolar approximant',
     link: 'https://en.wikipedia.org/wiki/Alveolar_and_postalveolar_approximants'
   },
   'ɾ': {
@@ -316,7 +320,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiced_vular_fricative'
   },
   'ɻ': {
-    name: 'retroflex approximant',
+    name: 'voiced retroflex approximant',
     link: 'https://en.wikipedia.org/wiki/Retroflex_approximant'
   },
   'ɽ': {
@@ -356,7 +360,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Labiodental_flap'
   },
   'ʋ': {
-    name: 'labiodental approximant',
+    name: 'voiced labiodental approximant',
     link: 'https://en.wikipedia.org/wiki/Labiodental_approximant'
   },
   'ʌ': {
@@ -364,7 +368,7 @@ var phones = {
     link: 'httpś://en.wikipedia.org/wiki/Open-mid_back_unrounded_vowel'
   },
   'ɰ': {
-    name: 'velar approximant',
+    name: 'voiced velar approximant',
     link: 'https://en.wikipedia.org/wiki/Velar_approximant'
   },
   'ɯ': {

@@ -46,16 +46,12 @@ textarea {
 #keys-table {
     margin: auto;
     border-collapse: collapse;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 #keys-table td, #keys-table th {
     border: 1px solid black;
     padding: 5pt;
-}
-
-#keys-table a {
-    font-size: 12pt;
 }
 
 #mode {

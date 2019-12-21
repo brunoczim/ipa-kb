@@ -32,6 +32,7 @@ var keys = [
   { input: 'ha', output: 'ħ' },
   { input: 'hs', output: 'ɧ' },
   { input: 'H', output: 'ʜ' },
+  { input: 'hy', output: 'ɥ' },
   { input: 'i', output: 'ɨ' },
   { input: 'I', output: 'ɪ' },
   { input: 'j', output: 'ʄ' },
