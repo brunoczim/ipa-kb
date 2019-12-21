@@ -156,8 +156,8 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Mid_central_vowel'
   },
   'ɚ': {
-    name: 'rhotacized mid central vowel',
-    link: 'https://en.wikipedia.org/wiki/Rhotacized_mid_central_vowel'
+    name: 'r-colored mid central vowel',
+    link: 'https://en.wikipedia.org/wiki/R-colored_vowel'
   },
   'ɘ': {
     name: 'close-mid central unrounded vowel',
@@ -172,8 +172,8 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Open-mid_central_unrounded_vowel'
   },
   'ɝ': {
-    name: 'rhotacized open-mid central unrounded vowel',
-    link: 'https://en.wikipedia.org/wiki/Rhotacized_open-mid_central_unrounded_vowel'
+    name: 'R-colored open-mid central unrounded vowel',
+    link: 'https://en.wikipedia.org/wiki/R-colored_vowel'
   },
   'ɞ': {
     name: 'open-mid central rounded vowel',
