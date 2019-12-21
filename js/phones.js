@@ -211,7 +211,7 @@ var phones = {
     name: 'voiceless epiglottal fricative',
     link: 'https://en.wikipedia.org/wiki/Voiceless_epiglottal_fricative'
   },
-  ' ': {
+  'ɨ': {
     name: 'close central unrounded vowel',
     link: 'https://en.wikipedia.org/Close_central_unrounded_vowel'
   },
@@ -254,6 +254,22 @@ var phones = {
   'ɱ': {
     name: 'labiodental nasal',
     link: 'https://en.wikipedia.org/wiki/Labiodental_nasal'
+  },
+  'ɲ': {
+    name: 'palatal nasal',
+    link: 'https://en.wikipedia.org/wiki/Palatal_nasal'
+  },
+  'ŋ': {
+    name: 'velar nasal',
+    link: 'https://en.wikipedia.org/wiki/Velar_nasal'
+  },
+  'ɳ': {
+    name: 'retroflex nasal',
+    link: 'https://en.wikipedia.org/wiki/Retroflex_nasal'
+  },
+  'ɴ': {
+    name: 'uvular nasal',
+    link: 'https://en.wikipedia.org/wiki/Uvular_nasal'
   },
   '\u0303': {
     name: 'nasalized diacritic',

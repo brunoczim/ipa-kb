@@ -1,19 +1,36 @@
-renderKeyBindings();
+renderKeys();
 listenKeys();
 
-function renderKeyBindings() {
-  var elem = document.getElementById('keys-list');
+function renderKeys() {
+  var elem = document.getElementById('keys-tbody');
 
   for (var i = 0; i < keys.length; i++) {
-    var item = document.createElement('li');
-    item.textContent = keys[i].input;
-    item.textContent += ' → ';
+    var row = document.createElement('tr');
+    var keysCol = document.createElement('td');
+    var symbolCol = document.createElement('td');
+    var nameCol = document.createElement('td');
+    keysCol.textContent = keys[i].input;
     if (keys[i].output in phones && phones[keys[i].output].diacritic) {
-      item.textContent += '◌';
+      symbolCol.textContent = '◌' + keys[i].output;
+    } else {
+      symbolCol.textContent = keys[i].output;
     }
-    item.textContent += keys[i].output;
-    elem.appendChild(item);
+    if (keys[i].output in phones) {
+      nameCol.appendChild(makeLink(keys[i].output));
+    }
+    row.appendChild(keysCol);
+    row.appendChild(symbolCol);
+    row.appendChild(nameCol);
+    elem.appendChild(row);
   }
+}
+
+function makeLink(key) {
+  var link = document.createElement('a');
+  link.href = phones[key].link;
+  link.textContent = phones[key].name;
+  link.target = '_blank';
+  return link;
 }
 
 function listenKeys() {
@@ -30,12 +47,8 @@ function listenKeys() {
 
   function setCurrent(key) {
     if (key in phones) {
-      var link = document.createElement('a');
-      link.href = phones[key].link;
-      link.textContent = phones[key].name;
-      link.target = '_blank';
       current.innerHTML = '';
-      current.appendChild(link);
+      current.appendChild(makeLink(key));
     }
   }
 

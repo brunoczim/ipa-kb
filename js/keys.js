@@ -38,6 +38,10 @@ var keys = [
   { input: 'lz', output: 'ɮ' },
   { input: 'L', output: 'ʟ' },
   { input: 'm', output: 'ɱ' },
+  { input: 'n', output: 'ɲ' },
+  { input: 'ng', output: 'ŋ' },
+  { input: 'nr', output: 'ɳ' },
+  { input: 'N', output: 'ɴ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];

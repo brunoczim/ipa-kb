@@ -39,15 +39,19 @@ body {
     font-size: 18pt;
 }
 
-#keys-list {
-    list-style: none;
+#keys-table {
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 14pt;
 }
 
-#keys-list > li {
-    display: inline-block;
-    padding-left: 30pt;
-    padding-right: 30pt;
-    padding-top: 10pt;
+#keys-table td, #keys-table th {
+    border: 1px solid black;
+    padding: 5pt;
+}
+
+#keys-table a {
+    font-size: 12pt;
 }
 
 #mode {
