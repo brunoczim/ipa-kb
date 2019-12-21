@@ -77,6 +77,10 @@ var keys = [
   { input: 'z', output: 'ʒ' },
   { input: 'zr', output: 'ʐ' },
   { input: 'zs', output: 'ʑ' },
+  { input: '?', output: 'ʔ' },
+  { input: '??', output: 'ʕ' },
+  { input: '?-', output: 'ʡ' },
+  { input: '??-', output: 'ʢ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];

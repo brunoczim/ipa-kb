@@ -399,6 +399,22 @@ var phones = {
     name: 'voiced alveolo-palatal fricative',
     link: 'https://en.wikipedia.org/wiki/Voiced_alveolo-palatal_fricative'
   },
+  'ʔ': {
+    name: 'glottal stop',
+    link: 'https://en.wikipedia.org/wiki/Glottal_stop'
+  },
+  'ʕ': {
+    name: 'voiced pharyngeal fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_pharyngeal_fricative'
+  },
+  'ʡ': {
+    name: 'epiglottal stop',
+    link: 'https://en.wikipedia.org/wiki/Epiglottal_stop'
+  },
+  'ʢ': {
+    name: 'voiced epiglottal trill',
+    link: 'https://en.wikipedia.org/wiki/Voiced_epiglottal_trill'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,

@@ -51,7 +51,7 @@ function listenKeys() {
       current.appendChild(makeLink(key));
     }
   }
-
+  
   elem.onkeyup = function(event) {
     switch (mode) {
       case 'special':
