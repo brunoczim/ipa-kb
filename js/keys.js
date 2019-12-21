@@ -71,6 +71,12 @@ var keys = [
   { input: 'w', output: 'ɰ' },
   { input: 'wu', output: 'ɯ' },
   { input: 'wm', output: 'ʍ' },
+  { input: 'x', output: 'χ' },
+  { input: 'y', output: 'ʎ' },
+  { input: 'Y', output: 'ʏ' },
+  { input: 'z', output: 'ʒ' },
+  { input: 'zr', output: 'ʐ' },
+  { input: 'zs', output: 'ʑ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];

@@ -363,6 +363,42 @@ var phones = {
     name: 'open-mid back unrounded vowel',
     link: 'httpś://en.wikipedia.org/wiki/Open-mid_back_unrounded_vowel'
   },
+  'ɰ': {
+    name: 'velar approximant',
+    link: 'https://en.wikipedia.org/Velar_approximant'
+  },
+  'ɯ': {
+    name: 'close back unrounded vowel',
+    link: 'https://en.wikipedia.org/Close_back_unrounded_vowel'
+  },
+  'ʍ': {
+    name: 'voiceless labio-velar approximant',
+    link: 'https://en.wikipedia.org/wiki/Voiceless_labialized_velar_approximant'
+  },
+  'χ': {
+    name: 'voiceless uvular approximant',
+    link: 'https://en.wikipedia.org/Voiceless_uvular_approximant'
+  },
+  'ʎ': {
+    name: 'palatal lateral approximant',
+    link: 'https://en.wikipedia.org/Palatal_lateral_approximant'
+  },
+  'ʏ': {
+    name: 'near-close front rounded vowel',
+    link: 'https://en.wikipedia.org/Near-close_front_rounded_vowel'
+  },
+  'ʒ': {
+    name: 'voiced palato-alveolar fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative'
+  },
+  'ʐ': {
+    name: 'voiced retroflex fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_retroflex_fricative'
+  },
+  'ʑ': {
+    name: 'voiced alveolo-palatal fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_alveolo-palatal_fricative'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,
