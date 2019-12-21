@@ -21,8 +21,10 @@ var keys = [
   { input: '3o', output: 'ɞ' },
   { input: 'f', output: 'ɸ' },
   { input: 'g', output: 'ɠ' },
+  { input: 'gh', output: 'ɣ' },
   { input: 'G', output: 'ɢ' },
   { input: 'Gg', output: 'ʛ' },
+  { input: 'go', output: 'ɤ' },
   { input: 'h', output: 'ɦ' },
   { input: 'ha', output: 'ħ' },
   { input: 'hs', output: 'ɧ' },
@@ -42,6 +44,11 @@ var keys = [
   { input: 'ng', output: 'ŋ' },
   { input: 'nr', output: 'ɳ' },
   { input: 'N', output: 'ɴ' },
+  { input: 'o', output: 'ɔ' },
+  { input: 'oe', output: 'œ' },
+  { input: 'o/', output: 'ø' },
+  { input: 'OE', output: 'ɶ' },
+  { input: 'o-', output: 'ɵ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];

@@ -183,6 +183,10 @@ var phones = {
     name: 'voiceless bilabial fricative',
     link: 'https://en.wikipedia.org/wiki/Voiceless_bilabial_fricative'
   },
+  'ɣ': {
+    name: 'voiced velar fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_velar_fricative'
+  },
   'ɠ': {
     name: 'voiced velar implosive',
     link: 'https://en.wikipedia.org/wiki/Voiced_velar_implosive'
@@ -194,6 +198,10 @@ var phones = {
   'ʛ': {
     name: 'voiced uvular implosive',
     link: 'https://en.wikipedia.org/wiki/Voiced_uvular_implosive'
+  },
+  'ɤ': {
+    name: 'close-mid back unrounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel'
   },
   'ɦ': {
     name: 'breathy-voiced glottal transition',
@@ -270,6 +278,26 @@ var phones = {
   'ɴ': {
     name: 'uvular nasal',
     link: 'https://en.wikipedia.org/wiki/Uvular_nasal'
+  },
+  'ɔ': {
+    name: 'open-mid back rounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel'
+  },
+  'œ': {
+    name: 'open-mid front rounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel'
+  },
+  'ø': {
+    name: 'close-mid front rounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel'
+  },
+  'ɶ': {
+    name: 'open front rounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Open_front_rounded_vowel'
+  },
+  'ɵ': {
+    name: 'close-mid central rounded vowel',
+    link: 'https://en.wikipedia.org/wiki/Close-mid_central_rounded_vowel'
   },
   '\u0303': {
     name: 'nasalized diacritic',
