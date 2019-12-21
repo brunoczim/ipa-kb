@@ -415,6 +415,37 @@ var phones = {
     name: 'voiced epiglottal trill',
     link: 'https://en.wikipedia.org/wiki/Voiced_epiglottal_trill'
   },
+  'ˈ': {
+    name: 'primary stress',
+    link: 'https://en.wikipedia.org/wiki/Stress_(linguistics)'
+  },
+  'ˌ': {
+    name: 'secondary stress',
+    link: 'https://en.wikipedia.org/wiki/Stress_(linguistics)'
+  },
+  'ː': {
+    name: 'long phone',
+    link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
+  },
+  'ˑ': {
+    name: 'half-long phone',
+    link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
+  },
+  '\u0306': {
+    name: 'extra short phone',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
+  },
+  '\u0329': {
+    name: 'syllabic phone lower diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
+  },
+  '\u030d': {
+    name: 'syllabic phone upper diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,
@@ -424,5 +455,15 @@ var phones = {
     name: 'velarized or pharyngealized diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Velarization'
+  },
+  '\u0361': {
+    name: 'upper tie bar (affricate or coarticulation)',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
+  },
+  '\u035c': {
+    name: 'lower tie bar (affricate or coarticulation)',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
   }
 };

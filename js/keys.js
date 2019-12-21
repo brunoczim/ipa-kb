@@ -81,8 +81,19 @@ var keys = [
   { input: '??', output: 'ʕ' },
   { input: '?-', output: 'ʡ' },
   { input: '??-', output: 'ʢ' },
+  { input: '\'', output: 'ˈ' },
+  { input: '\"', output: 'ˌ' },
+  { input: ':', output: 'ː' },
+  { input: '.', output: 'ˑ' },
+  { input: '\\/', output: '\u0306' },
+  { input: ',', output: '\u0329' },
+  { input: ',\'', output: '\u030d' },
   { input: '~', output: '\u0303' },
-  { input: '~u', output: '\u0334' }
+  { input: '~u', output: '\u0334' },
+  { input: '_', output: '\u0361' },
+  { input: '__', output: '\u035c' },
+  { input: '0', output: '∅' },
+  { input: '->', output: '→' }
 ];
 
 var keyMap = {};
