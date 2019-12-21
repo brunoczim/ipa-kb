@@ -98,6 +98,7 @@ var keys = [
   { input: 'voiceless', output: '\u0325' },
   { input: 'voicelesslow', output: '\u0325' },
   { input: 'voicelessup', output: '\u030a' },
+  { input: 'voiced', output: '\u032c' },
   { input: '_', output: '\u0361' },
   { input: '__', output: '\u035c' },
   { input: '0', output: '∅' },

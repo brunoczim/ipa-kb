@@ -476,6 +476,11 @@ var phones = {
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Voicelessness'
   },
+  '\u032c': {
+    name: 'voiced diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Voice_(phonetics)'
+  },
   '\u0334': {
     name: 'velarized or pharyngealized diacritic',
     diacritic: true,
