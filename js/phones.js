@@ -299,6 +299,34 @@ var phones = {
     name: 'close-mid central rounded vowel',
     link: 'https://en.wikipedia.org/wiki/Close-mid_central_rounded_vowel'
   },
+  'ɹ': {
+    name: 'alveolar approximant',
+    link: 'https://en.wikipedia.org/wiki/Alveolar_and_postalveolar_approximants'
+  },
+  'ɾ': {
+    name: 'alveolar tap',
+    link: 'https://en.wikipedia.org/wiki/Dental_and_alveolar_taps_and_flaps'
+  },
+  'ʀ': {
+    name: 'uvular trill',
+    link: 'https://en.wikipedia.org/wiki/Uvular_trill'
+  },
+  'ʁ': {
+    name: 'voiced uvular fricative',
+    link: 'https://en.wikipedia.org/wiki/Voiced_vular_fricative'
+  },
+  'ɻ': {
+    name: 'retroflex approximant',
+    link: 'https://en.wikipedia.org/wiki/Retroflex_approximant'
+  },
+  'ɽ': {
+    name: 'retroflex flap',
+    link: 'https://en.wikipedia.org/wiki/Retroflex_flap'
+  },
+  'ɺ': {
+    name: 'alveolar lateral flap',
+    link: 'https://en.wikipedia.org/wiki/Dental_and_alveolar_lateral_flaps'
+  },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,

@@ -49,6 +49,13 @@ var keys = [
   { input: 'o/', output: 'ø' },
   { input: 'OE', output: 'ɶ' },
   { input: 'o-', output: 'ɵ' },
+  { input: 'r', output: 'ɹ' },
+  { input: 'rd', output: 'ɾ' },
+  { input: 'R', output: 'ʀ' },
+  { input: 'Rh', output: 'ʁ' },
+  { input: 'rr', output: 'ɻ' },
+  { input: 'rdr', output: 'ɽ' },
+  { input: 'rl', output: 'ɺ' },
   { input: '~', output: '\u0303' },
   { input: '~u', output: '\u0334' }
 ];
