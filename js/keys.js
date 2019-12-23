@@ -113,6 +113,17 @@ var keys = [
   { input: 'advanced', output: '˖' },
   { input: '-', output: '\u0320' },
   { input: 'retracted', output: '˗' },
+  { input: 'connected', output: '‿' },
+  { input: 'moreround', output: '\u0339' },
+  { input: 'lessround', output: '\u031c' },
+  { input: 'breathy', output: '\u0324' },
+  { input: 'creaky', output: '\u0330' },
+  { input: 'linguo', output: '\u033c' },
+  { input: 'root+', output: '\u0318' },
+  { input: 'root-', output: '\u0319' },
+  { input: 'laminal', output: '\u033b' },
+  { input: 'midcentral', output: '\u033d' },
+  { input: 'ejective', output: 'ʼ' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];

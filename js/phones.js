@@ -551,4 +551,57 @@ var phones = {
     name: 'retracted',
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Retracted'
   },
+  '‿': {
+    name: 'connected speech',
+    link: 'https://en.wikipedia.org/wiki/Connected_speech'
+  },
+  '\u0339': {
+    name: 'more rounded diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#More_and_less_rounded'
+  },
+  '\u031c': {
+    name: 'less rounded diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#More_and_less_rounded'
+  },
+  '\u0324': {
+    name: 'breathy-voiced diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Breathy_voice'
+  },
+  '\u0330': {
+    name: 'creaky-voiced diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Creaky_voice'
+  },
+  '\u033c': {
+    name: 'liguolabial diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Linguolabial_consonant'
+  },
+  '\u0318': {
+    name: 'advanced tongue root diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
+  },
+  '\u0319': {
+    name: 'advanced tongue root diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
+  },
+  '\u033b': {
+    name: 'laminal diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Laminal_consonant'
+  },
+  '\u033d': {
+    name: 'mid centralized diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Relative_articulation#Mid-centralized_vowels'
+  },
+  'ʼ': {
+    name: 'ejective',
+    link: 'https://en.wikipedia.org/wiki/Ejective_consonant'
+  }
 };

@@ -57,7 +57,7 @@ tbody > tr:nth-child(even), thead > tr {
     background-color: #e8e0f2;
 }
 
-tbody > tr:nth-child(body) {
+tbody > tr:nth-child(odd) {
     background-color: #fcf7ff;
 }
 
