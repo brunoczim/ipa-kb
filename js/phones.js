@@ -212,7 +212,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Voiceless_pharyngeal_fricative'
   },
   'ɧ': {
-    name: 'sj-fricative',
+    name: 'sj-sound',
     link: 'https://en.wikipedia.org/wiki/Sj-sound'
   },
   'ʜ': {
