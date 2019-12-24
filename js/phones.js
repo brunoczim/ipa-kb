@@ -510,6 +510,11 @@ var phones = {
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Dental_consonant'
   },
+  '\u033b': {
+    name: 'laminal diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Laminal_consonant'
+  },
   '\u033a': {
     name: 'apical diacritic',
     diacritic: true,
@@ -590,11 +595,6 @@ var phones = {
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
   },
-  '\u033b': {
-    name: 'laminal diacritic',
-    diacritic: true,
-    link: 'https://en.wikipedia.org/wiki/Laminal_consonant'
-  },
   '\u033d': {
     name: 'mid centralized diacritic',
     diacritic: true,
@@ -603,5 +603,91 @@ var phones = {
   'ʼ': {
     name: 'ejective',
     link: 'https://en.wikipedia.org/wiki/Ejective_consonant'
-  }
+  },
+  '\u030f': {
+    name: 'extra low diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u0300': {
+    name: 'low diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u0304': {
+    name: 'mid diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u0301': {
+    name: 'high diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u030b': {
+    name: 'very high diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u0302': {
+    name: 'falling diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u030c': {
+    name: 'rising diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u1dc5': {
+    name: 'low rising diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u1dc4': {
+    name: 'high rising diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '\u1dc8': {
+    name: 'rising-falling diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '˩': {
+    name: 'extra low tone',
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '˨': {
+    name: 'low tone',
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '˧': {
+    name: 'mid tone',
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '˦': {
+    name: 'high tone',
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  '˥': {
+    name: 'extra high tone',
+    link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
+  },
+  'ꜜ': {
+    name: 'downstep',
+    link: 'https://en.wikipedia.org/wiki/Downstep'
+  },
+  'ꜛ': {
+    name: 'upstep',
+    link: 'https://en.wikipedia.org/wiki/Upstep'
+  },
+  '↘︎': {
+    name: 'global fall',
+    link: 'https://en.wikipedia.org/wiki/Intonation_(linguistics)'
+  },
+  '↗︎': {
+    name: 'global rise',
+    link: 'https://en.wikipedia.org/wiki/Intonation_(linguistics)'
+  },
 };
