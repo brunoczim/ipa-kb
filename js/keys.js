@@ -143,6 +143,12 @@ var keys = [
   { input: 'upstep', output: 'ꜛ' },
   { input: 'globalfall', output: '↘︎' },
   { input: 'globalrise', output: '↗︎' },
+  { input: 'O', output: 'ʘ' },
+  { input: '|', output: 'ǀ' },
+  { input: '!', output: 'ǃ' },
+  { input: '!!', output: '‼' },
+  { input: '||', output: 'ǁ' },
+  { input: '|=', output: 'ǂ' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];

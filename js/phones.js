@@ -690,4 +690,28 @@ var phones = {
     name: 'global rise',
     link: 'https://en.wikipedia.org/wiki/Intonation_(linguistics)'
   },
+  'ʘ': {
+    name: 'bilabial click',
+    link: 'https://en.wikipedia.org/wiki/Bilabial_click'
+  },
+  'ǀ': {
+    name: 'dental click',
+    link: 'https://en.wikipedia.org/wiki/Dental_click'
+  },
+  'ǃ': {
+    name: 'alveolar click',
+    link: 'https://en.wikipedia.org/wiki/Alveolar_click'
+  },
+  '‼': {
+    name: 'retroflex click',
+    link: 'https://en.wikipedia.org/wiki/Retroflex_click'
+  },
+  'ǁ': {
+    name: 'lateral click',
+    link: 'https://en.wikipedia.org/wiki/Lateral_click'
+  },
+  'ǂ': {
+    name: 'palatal click',
+    link: 'https://en.wikipedia.org/wiki/Palatal_click'
+  },
 };
