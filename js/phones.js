@@ -485,11 +485,6 @@ var phones = {
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Voice_(phonetics)'
   },
-  '\u0334': {
-    name: 'velarized or pharyngealized diacritic',
-    diacritic: true,
-    link: 'https://en.wikipedia.org/wiki/Velarization'
-  },
   '\u0361': {
     name: 'upper tie bar (affricate or coarticulation) diacritic',
     diacritic: true,
@@ -713,5 +708,42 @@ var phones = {
   'ǂ': {
     name: 'palatal click',
     link: 'https://en.wikipedia.org/wiki/Palatal_click'
+  },
+  'ʰ': {
+    name: 'aspirated',
+    link: 'https://en.wikipedia.org/wiki/Aspirated_consonant',
+  },
+  'ʱ': {
+    name: 'breathy-voiced',
+    link: 'https://en.wikipedia.org/wiki/Breathy_voice',
+  },
+  'ˀ': {
+    name: 'glottalized',
+    link: 'https://en.wikipedia.org/wiki/Glottalization',
+  },
+  'ˤ': {
+    name: 'pharyngealized',
+    link: 'https://en.wikipedia.org/wiki/Pharyngealization',
+  },
+  '\u0334': {
+    name: 'velarized or pharyngealized diacritic',
+    diacritic: true,
+    link: 'https://en.wikipedia.org/wiki/Velarization'
+  },
+  'ˠ': {
+    name: 'velarized',
+    link: 'https://en.wikipedia.org/wiki/Velarization',
+  },
+  'ʲ': {
+    name: 'palatalized',
+    link: 'https://en.wikipedia.org/wiki/Palatalization_(phonetics)',
+  },
+  'ʷ': {
+    name: 'labialized',
+    link: 'https://en.wikipedia.org/wiki/Labialization',
+  },
+  'ᵝ': {
+    name: 'compressed rounding',
+    link: 'https://en.wikipedia.org/wiki/Roundedness#Types_of_rounding',
   },
 };

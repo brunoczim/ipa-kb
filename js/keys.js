@@ -95,7 +95,6 @@ var keys = [
   { input: 'nonsylup', output: '\u0311' },
   { input: '~', output: '\u0303' },
   { input: 'central', output: '\u0308' },
-  { input: 'velphar', output: '\u0334' },
   { input: 'voiceless', output: '\u0325' },
   { input: 'voicelesslow', output: '\u0325' },
   { input: 'voicelessup', output: '\u030a' },
@@ -149,6 +148,15 @@ var keys = [
   { input: '!!', output: '‼' },
   { input: '||', output: 'ǁ' },
   { input: '|=', output: 'ǂ' },
+  { input: '_h', output: 'ʰ' },
+  { input: '_hh', output: 'ʱ' },
+  { input: '_?', output: 'ˀ' },
+  { input: '_??', output: 'ˤ' },
+  { input: 'velphar', output: '\u0334' },
+  { input: '_g', output: 'ˠ' },
+  { input: '_j', output: 'ʲ' },
+  { input: '_w', output: 'ʷ' },
+  { input: '_v', output: 'ᵝ' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];
