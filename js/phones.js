@@ -156,7 +156,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Mid_central_vowel'
   },
   'ɚ': {
-    name: 'r-colored mid central vowel',
+    name: 'R-colored mid central vowel',
     link: 'https://en.wikipedia.org/wiki/R-colored_vowel'
   },
   'ɘ': {
@@ -685,6 +685,14 @@ var phones = {
     name: 'global rise',
     link: 'https://en.wikipedia.org/wiki/Intonation_(linguistics)'
   },
+  '|': {
+    name: 'minor group (foot)',
+    link: 'https://en.wikipedia.org/wiki/Prosodic_unit'
+  },
+  '‖': {
+    name: 'major group (intonation)',
+    link: 'https://en.wikipedia.org/wiki/Prosodic_unit'
+  },
   'ʘ': {
     name: 'bilabial click',
     link: 'https://en.wikipedia.org/wiki/Bilabial_click'
@@ -732,18 +740,30 @@ var phones = {
   },
   'ˠ': {
     name: 'velarized',
-    link: 'https://en.wikipedia.org/wiki/Velarization',
+    link: 'https://en.wikipedia.org/wiki/Velarization'
   },
   'ʲ': {
     name: 'palatalized',
-    link: 'https://en.wikipedia.org/wiki/Palatalization_(phonetics)',
+    link: 'https://en.wikipedia.org/wiki/Palatalization_(phonetics)'
   },
   'ʷ': {
-    name: 'labialized',
-    link: 'https://en.wikipedia.org/wiki/Labialization',
+    name: 'labialized or protruded rounding',
+    link: 'https://en.wikipedia.org/wiki/Labialization'
   },
   'ᵝ': {
     name: 'compressed rounding',
-    link: 'https://en.wikipedia.org/wiki/Roundedness#Types_of_rounding',
+    link: 'https://en.wikipedia.org/wiki/Roundedness#Types_of_rounding'
   },
+  'ˡ': {
+    name: 'lateral release',
+    link: 'https://en.wikipedia.org/wiki/Lateral_release_(phonetics)'
+  },
+  'ⁿ': {
+    name: 'nasal release',
+    link: 'https://en.wikipedia.org/wiki/Nasal_release'
+  },
+  '˞': {
+    name: 'R-colored',
+    link: 'https://en.wikipedia.org/wiki/R-colored_vowel'
+  }
 };

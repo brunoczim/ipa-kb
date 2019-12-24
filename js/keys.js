@@ -142,6 +142,8 @@ var keys = [
   { input: 'upstep', output: 'ꜛ' },
   { input: 'globalfall', output: '↘︎' },
   { input: 'globalrise', output: '↗︎' },
+  { input: 'minor', output: '|' },
+  { input: 'major', output: '‖' },
   { input: 'O', output: 'ʘ' },
   { input: '|', output: 'ǀ' },
   { input: '!', output: 'ǃ' },
@@ -157,6 +159,9 @@ var keys = [
   { input: '_j', output: 'ʲ' },
   { input: '_w', output: 'ʷ' },
   { input: '_v', output: 'ᵝ' },
+  { input: '_l', output: 'ˡ' },
+  { input: '_n', output: 'ⁿ' },
+  { input: '_r', output: '˞' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];
