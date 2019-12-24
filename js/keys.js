@@ -36,7 +36,7 @@ var keys = [
   { input: 'i', output: 'ɨ' },
   { input: 'I', output: 'ɪ' },
   { input: 'j', output: 'ʄ' },
-  { input: 'js', output: 'ʝ' },
+  { input: 'jh', output: 'ʝ' },
   { input: 'J', output: 'ɟ' },
   { input: 'l', output: 'ɫ' },
   { input: 'lr', output: 'ɭ' },
