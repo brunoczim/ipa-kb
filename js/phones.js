@@ -450,12 +450,12 @@ var phones = {
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
   },
-  '\u0311': {
+  '\u032f': {
     name: 'non-syllabic lower diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
-  '\u032f': {
+  '\u0311': {
     name: 'non-syllabic upper diacritic',
     diacritic: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
