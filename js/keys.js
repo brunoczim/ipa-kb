@@ -1,5 +1,6 @@
 var delStart = '\\';
 var delEnd = 'Enter';
+var backspace = 'Backspace';
 
 var keys = [
   { input: '\\', output: '\\' },
@@ -162,6 +163,7 @@ var keys = [
   { input: '_l', output: 'ˡ' },
   { input: '_n', output: 'ⁿ' },
   { input: '_r', output: '˞' },
+  { input: 'tenuis', output: '˭' },
   { input: '0', output: '∅' },
   { input: '->', output: '→' }
 ];

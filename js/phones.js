@@ -438,117 +438,141 @@ var phones = {
   '\u0306': {
     name: 'extra short diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Length_(phonetics)'
   },
   '\u0329': {
     name: 'syllabic lower diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
   },
   '\u030d': {
     name: 'syllabic upper diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Syllabic_consonant'
   },
   '\u032f': {
     name: 'non-syllabic lower diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
   '\u0311': {
     name: 'non-syllabic upper diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Semivowel'
   },
   '\u0303': {
     name: 'nasalized diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Nasal_vowel'
   },
   '\u0308': {
     name: 'centralized diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Central_vowel'
   },
   '\u0325': {
     name: 'voiceless lower diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Voicelessness'
   },
   '\u030a': {
     name: 'voiceless upper diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Voicelessness'
   },
   '\u032c': {
     name: 'voiced diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Voice_(phonetics)'
   },
   '\u0361': {
     name: 'upper tie bar (affricate or coarticulation) diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
   },
   '\u035c': {
     name: 'lower tie bar (affricate or coarticulation) diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tie_(typography)#International_Phonetic_Alphabet'
   },
   '\u031a': {
     name: 'no audible release diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Unreleased_stop'
   },
   '\u032a': {
     name: 'dental diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Dental_consonant'
   },
   '\u033b': {
     name: 'laminal diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Laminal_consonant'
   },
   '\u033a': {
     name: 'apical diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Apical_consonant'
   },
   '\u031d': {
     name: 'raised diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Raised'
   },
   '\u031e': {
     name: 'lowered diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Lowered'
   },
   '˔': {
     name: 'raised',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Raised'
   },
   '˕': {
     name: 'lowered',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Lowered'
   },
   '\u031f': {
     name: 'advanced diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Advanced'
   },
   '\u0320': {
     name: 'retracted diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Retracted'
   },
   '˖': {
     name: 'advanced',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Advanced'
   },
   '˗': {
     name: 'retracted',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Retracted'
   },
   '‿': {
@@ -558,95 +582,114 @@ var phones = {
   '\u0339': {
     name: 'more rounded diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#More_and_less_rounded'
   },
   '\u031c': {
     name: 'less rounded diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#More_and_less_rounded'
   },
   '\u0324': {
     name: 'breathy-voiced diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Breathy_voice'
   },
   '\u0330': {
     name: 'creaky-voiced diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Creaky_voice'
   },
   '\u033c': {
     name: 'liguolabial diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Linguolabial_consonant'
   },
   '\u0318': {
     name: 'advanced tongue root diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
   },
   '\u0319': {
     name: 'advanced tongue root diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
   },
   '\u033d': {
     name: 'mid centralized diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Relative_articulation#Mid-centralized_vowels'
   },
   'ʼ': {
     name: 'ejective',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Ejective_consonant'
   },
   '\u030f': {
     name: 'extra low diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u0300': {
     name: 'low diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u0304': {
     name: 'mid diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u0301': {
     name: 'high diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u030b': {
     name: 'very high diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u0302': {
     name: 'falling diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u030c': {
     name: 'rising diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u1dc5': {
     name: 'low rising diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u1dc4': {
     name: 'high rising diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '\u1dc8': {
     name: 'rising-falling diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Tone_(linguistics)'
   },
   '˩': {
@@ -719,51 +762,68 @@ var phones = {
   },
   'ʰ': {
     name: 'aspirated',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Aspirated_consonant',
   },
   'ʱ': {
     name: 'breathy-voiced',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Breathy_voice',
   },
   'ˀ': {
     name: 'glottalized',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Glottalization',
   },
   'ˤ': {
     name: 'pharyngealized',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Pharyngealization',
   },
   '\u0334': {
     name: 'velarized or pharyngealized diacritic',
     diacritic: true,
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Velarization'
   },
   'ˠ': {
     name: 'velarized',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Velarization'
   },
   'ʲ': {
     name: 'palatalized',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Palatalization_(phonetics)'
   },
   'ʷ': {
     name: 'labialized or protruded rounding',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Labialization'
   },
   'ᵝ': {
     name: 'compressed rounding',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Roundedness#Types_of_rounding'
   },
   'ˡ': {
     name: 'lateral release',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Lateral_release_(phonetics)'
   },
   'ⁿ': {
     name: 'nasal release',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Nasal_release'
   },
   '˞': {
     name: 'R-colored',
+    needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/R-colored_vowel'
+  },
+  '˭': {
+    name: 'tenuis',
+    needsCircle: true,
+    link: 'https://en.wikipedia.org/wiki/Tenuis_consonant'
   }
 };

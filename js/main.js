@@ -10,7 +10,7 @@ function renderKeys() {
     var symbolCol = document.createElement('td');
     var nameCol = document.createElement('td');
     keysCol.textContent = keys[i].input;
-    if (keys[i].output in phones && phones[keys[i].output].diacritic) {
+    if (keys[i].output in phones && phones[keys[i].output].needsCircle) {
       symbolCol.textContent = '◌' + keys[i].output;
     } else {
       symbolCol.textContent = keys[i].output;
@@ -62,7 +62,11 @@ function listenKeys() {
   elem.onkeyup = function(event) {
     switch (mode) {
       case 'special':
-        if (event.key == delEnd) {
+        if (event.key == backspace) {
+          if (elem.value[specialPos] != delStart) {
+            setMode('normal');
+          }
+        } else if (event.key == delEnd) {
           var end = elem.selectionStart;
           var buf = elem.value.substring(specialPos + 1, end - 1);
           if (buf in keyMap) {
