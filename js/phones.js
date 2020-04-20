@@ -604,7 +604,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Creaky_voice'
   },
   '\u033c': {
-    name: 'liguolabial diacritic',
+    name: 'linguolabial diacritic',
     diacritic: true,
     needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Linguolabial_consonant'
@@ -616,7 +616,7 @@ var phones = {
     link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
   },
   '\u0319': {
-    name: 'advanced tongue root diacritic',
+    name: 'retracted tongue root diacritic',
     diacritic: true,
     needsCircle: true,
     link: 'https://en.wikipedia.org/wiki/Advanced_and_retracted_tongue_root'
